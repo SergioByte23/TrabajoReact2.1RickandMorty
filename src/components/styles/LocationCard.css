@@ -1,0 +1,35 @@
+.location__article{
+    background-color: rgba(6, 34, 38, 1);
+    max-width: 600px;
+    min-height: 150px;
+    margin: 40px auto;
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 0.8em;
+    padding: 20px;
+    box-shadow: 0.2em 0.2em 0.6em #0005;
+    
+}
+.location__title{
+    color: #74ad25;
+    text-align: center;
+    font-weight:600 ;
+}
+.location__ul{
+    
+    display: flex;
+    column-gap: 4em;
+    color: white;
+    text-align: center;
+}
+.location__ul__li{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3em;
+    font-weight:400 ;
+}
+.location__value{
+    color:#7c8384 ;
+    font-weight:300 ;
+}
